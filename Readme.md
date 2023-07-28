@@ -25,11 +25,11 @@ cd awesome-fastapi-project
 
 
 ## Running the Application
+ To start the FastAPI application, run the following command:
+ ``` 
+ uvicorn main:app --reload
 
-``` To start the FastAPI application, run the following command:
-
-bash
-uvicorn main:app --reload ```
+```
 
 This will launch the application, and it will be accessible at http://127.0.0.1:8000/ in your web browser or HTTP client.
 
